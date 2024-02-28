@@ -7,7 +7,11 @@ type Facturacion {
   orgid: String
 }
 
-scalar Void
+type CreateReponse{
+  Id: String
+  Href: String
+  DocumentId: String
+}
 
 type Query{
   getFacturation(
@@ -23,5 +27,5 @@ type Mutation{
     rfc: String
     email: String
     orgid: String
-  ):Facturacion
+  ):CreateReponse
 }

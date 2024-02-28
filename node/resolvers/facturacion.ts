@@ -1,23 +1,23 @@
-interface Arg {
-    orgid: string,
-    page: number,
-    pageSize: number
+interface Args {
+    orgid: string;
+    page: number;
+    pageSize: number;
 }
 
 interface ArgCreate {
-    usoCFDI: string,
-    rfc: string,
-    orgid: string,
-    email: string
+    usoCFDI: string;
+    rfc: string;
+    orgid: string;
+    email: string;
 }
 
 
 export const getFacturation = async (
     _: any,
-    { orgid, page, pageSize }: Arg,
+    { orgid, page, pageSize }: Args,
     { clients: { facturacion } }: Context
 ) => {
-    facturacion.getFacturacion(orgid, page, pageSize)
+    return facturacion.getFacturacion(orgid, page, pageSize)
 }
 
 export const createFacturacion = async (
@@ -25,5 +25,5 @@ export const createFacturacion = async (
     { usoCFDI, rfc, orgid, email }: ArgCreate,
     { clients: { facturacion } }: Context
 ) => {
-    facturacion.createFacturacion(usoCFDI, rfc, email, orgid)
+    return facturacion.createFacturacion(usoCFDI, rfc, email, orgid)
 }

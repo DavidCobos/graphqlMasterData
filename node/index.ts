@@ -23,6 +23,9 @@ export default new Service<Clients, RecorderState, ParamsContext>({
       },
     },
   },
+  events: {
+    initializeDB
+  },
   graphql: {
     resolvers: {
       Mutation: {
@@ -34,8 +37,6 @@ export default new Service<Clients, RecorderState, ParamsContext>({
     },
   },
 
-  events: {
-    initializeDB
-  }
+
 
 })

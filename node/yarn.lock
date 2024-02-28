@@ -1073,6 +1073,10 @@ path-to-regexp@^1.1.1:
   dependencies:
     isarray "0.0.1"
 
+"privarsa.graphql-example@https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.graphql-example@0.0.1+build1709133878/public/@types/privarsa.graphql-example":
+  version "0.0.1"
+  resolved "https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.graphql-example@0.0.1+build1709133878/public/@types/privarsa.graphql-example#d92d11362f4343b30179f19f382c4b8a48066f5e"
+
 process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
@@ -1184,7 +1188,7 @@ setprototypeof@1.2.0:
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.2.0.tgz#66c9a24a73f9fc28cbe66b09fed3d33dcaf1b424"
   integrity sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==
 
-"stats-lite@github:vtex/node-stats-lite#dist":
+stats-lite@vtex/node-stats-lite#dist:
   version "2.2.0"
   resolved "https://codeload.github.com/vtex/node-stats-lite/tar.gz/1b0d39cc41ef7aaecfd541191f877887a2044797"
   dependencies:
